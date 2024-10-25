@@ -1,7 +1,7 @@
 import './App.css';
-import logo from '../src/img/Logo.svg'
-import search from '../src/img/Search.svg'
-import cart from '../src/img/Shop card.svg'
+import logo from '../src/img/logo.svg'
+import search from '../src/img/search.svg'
+import cart from '../src/img/cart.svg'
 
 
 function App() {
@@ -20,10 +20,10 @@ function App() {
         </ul>
         <div className="block_input">
           <input type="text" />
-          <img src={search} alt='#' />
+          <img src={search} alt='search' />
         </div>
         <div className="cart" >
-        <img src={cart} alt='#' />
+        <img src={cart} alt='cart' />
         <p>cart(0)</p>
       </div>
     </div >
